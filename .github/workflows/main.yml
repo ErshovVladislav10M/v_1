@@ -13,7 +13,6 @@ jobs:
     - uses: actions/setup-node@v2
       with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          allowed-associations: '["OWNER"]'
     - name: Work...
       run:
         echo 'Hello owner'
